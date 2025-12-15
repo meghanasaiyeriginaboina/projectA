@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Banner } from 'src/app/models/banner';
+import { BannerService } from 'src/app/services/banner.service';
 
 @Component({
   selector: 'app-footer',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-
+  
 }

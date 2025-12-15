@@ -19,6 +19,7 @@ import { SpywareComponent } from './welcome/spyware/spyware.component';
 import { HelpCenterComponent } from './welcome/help-center/help-center.component';
 import { SpyingComponent } from './welcome/spying/spying.component';
 import { LatestInsightsComponent } from './welcome/latest-insights/latest-insights.component';
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { LatestInsightsComponent } from './welcome/latest-insights/latest-insigh
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule          
   ],
   providers: [],
   bootstrap: [AppComponent]
