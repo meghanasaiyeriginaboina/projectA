@@ -5,4 +5,5 @@ export class Navbar {
     item2!:String;
     item3!:String;
     item4!:String;
+    item5!:String;
 }

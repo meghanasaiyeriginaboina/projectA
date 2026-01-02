@@ -7,10 +7,8 @@ import { Navbar } from '../models/navbar';
   providedIn: 'root'
 })
 export class NavbarService {
- private url="assets/navbar.json ";
-  constructor(
-    private http:HttpClient  
-  ) { }
+ private url= "http://localhost:8081/api/v1/add";
+  constructor(private http:HttpClient) { }
   getdata():Observable<Navbar[]>{
      return this.http.get<Navbar[]>(this.url);
 

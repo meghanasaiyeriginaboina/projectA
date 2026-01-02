@@ -13,12 +13,12 @@ import { CompanyComponent } from './navigatingcomponents/company/company.compone
 import { SigninComponent } from './navigatingcomponents/signin/signin.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { BannerComponent } from './welcome/banner/banner.component';
-import { AndroidUserComponent } from './welcome/android-user/android-user.component';
-import { MobileSecurityComponent } from './welcome/mobile-security/mobile-security.component';
+import { AndroidUserComponent } from './welcome/android_user/android-user.component';
+import { MobileSecurityComponent } from './welcome/mobile_security/mobile-security.component';
 import { SpywareComponent } from './welcome/spyware/spyware.component';
-import { HelpCenterComponent } from './welcome/help-center/help-center.component';
+import { HelpCenterComponent } from './welcome/help_center/help-center.component';
 import { SpyingComponent } from './welcome/spying/spying.component';
-import { LatestInsightsComponent } from './welcome/latest-insights/latest-insights.component';
+import { LatestInsightsComponent } from './welcome/latest_insights/latest-insights.component';
 import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
